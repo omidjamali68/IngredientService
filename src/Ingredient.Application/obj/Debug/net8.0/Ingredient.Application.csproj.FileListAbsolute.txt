@@ -1,0 +1,17 @@
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Application.deps.json
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Application.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Application.pdb
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Domain.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Resource.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Domain.pdb
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\bin\Debug\net8.0\Ingredient.Resource.pdb
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.csproj.AssemblyReference.cache
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.AssemblyInfoInputs.cache
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.AssemblyInfo.cs
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.csproj.CoreCompileInputs.cache
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredie.B8F5ADC4.Up2Date
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\refint\Ingredient.Application.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.pdb
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\ref\Ingredient.Application.dll
