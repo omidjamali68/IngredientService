@@ -15,3 +15,4 @@ D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Deb
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\refint\Ingredient.Application.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.pdb
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\ref\Ingredient.Application.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Application\obj\Debug\net8.0\Ingredient.Application.sourcelink.json

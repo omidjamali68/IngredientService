@@ -148,3 +148,4 @@ D:\Dev\projects\health-care\IngredientService\src\Ingredient.Api\bin\Debug\net8.
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Api\bin\Debug\net8.0\Ingredient.Common.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Api\bin\Debug\net8.0\Ingredient.Common.pdb
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Api\obj\Debug\net8.0\Ingredient.Api.sourcelink.json

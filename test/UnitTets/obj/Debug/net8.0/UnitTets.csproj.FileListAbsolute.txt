@@ -96,3 +96,4 @@ D:\Dev\projects\health-care\IngredientService\test\UnitTets\obj\Debug\net8.0\ref
 D:\Dev\projects\health-care\IngredientService\test\UnitTets\obj\Debug\net8.0\UnitTets.pdb
 D:\Dev\projects\health-care\IngredientService\test\UnitTets\obj\Debug\net8.0\UnitTets.genruntimeconfig.cache
 D:\Dev\projects\health-care\IngredientService\test\UnitTets\obj\Debug\net8.0\ref\UnitTets.dll
+D:\Dev\projects\health-care\IngredientService\test\UnitTets\obj\Debug\net8.0\UnitTets.sourcelink.json

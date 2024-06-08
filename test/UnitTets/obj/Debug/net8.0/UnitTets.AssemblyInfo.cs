@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnitTets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3f4f3453de5edc279a83291b964847ccee980ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnitTets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnitTets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

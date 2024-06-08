@@ -21,3 +21,4 @@ D:\Dev\projects\health-care\IngredientService\src\Ingredient.Persistence.EF\obj\
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Persistence.EF\obj\Debug\net8.0\ref\Ingredient.Persistence.EF.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Persistence.EF\bin\Debug\net8.0\Ingredient.Common.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Persistence.EF\bin\Debug\net8.0\Ingredient.Common.pdb
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Persistence.EF\obj\Debug\net8.0\Ingredient.Persistence.EF.sourcelink.json

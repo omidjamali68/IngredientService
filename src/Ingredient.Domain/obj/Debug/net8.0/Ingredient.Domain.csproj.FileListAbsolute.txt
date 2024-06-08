@@ -13,3 +13,4 @@ D:\Dev\projects\health-care\IngredientService\src\Ingredient.Domain\obj\Debug\ne
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Domain\obj\Debug\net8.0\refint\Ingredient.Domain.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Domain\obj\Debug\net8.0\Ingredient.Domain.pdb
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Domain\obj\Debug\net8.0\ref\Ingredient.Domain.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Domain\obj\Debug\net8.0\Ingredient.Domain.sourcelink.json

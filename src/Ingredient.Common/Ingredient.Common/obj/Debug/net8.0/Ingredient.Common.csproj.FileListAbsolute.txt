@@ -9,3 +9,4 @@ D:\Dev\projects\health-care\IngredientService\src\Ingredient.Common\Ingredient.C
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Common\Ingredient.Common\obj\Debug\net8.0\refint\Ingredient.Common.dll
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Common\Ingredient.Common\obj\Debug\net8.0\Ingredient.Common.pdb
 D:\Dev\projects\health-care\IngredientService\src\Ingredient.Common\Ingredient.Common\obj\Debug\net8.0\ref\Ingredient.Common.dll
+D:\Dev\projects\health-care\IngredientService\src\Ingredient.Common\Ingredient.Common\obj\Debug\net8.0\Ingredient.Common.sourcelink.json

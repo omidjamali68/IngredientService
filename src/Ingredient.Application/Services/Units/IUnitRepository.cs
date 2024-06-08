@@ -4,7 +4,7 @@ using Ingredient.Domain.Units;
 
 namespace Ingredient.Application.Services.Units
 {
-    public interface IUnitRepository : IRepository<Unit>
+    public interface IUnitRepository : IRepository
     {
         Task Add(Unit unit);
         Task<Unit?> FindById(int id);

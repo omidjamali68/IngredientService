@@ -13,3 +13,4 @@ D:\Dev\projects\health-care\IngredientService\resource\Ingredient.Resource\obj\D
 D:\Dev\projects\health-care\IngredientService\resource\Ingredient.Resource\obj\Debug\net8.0\refint\Ingredient.Resource.dll
 D:\Dev\projects\health-care\IngredientService\resource\Ingredient.Resource\obj\Debug\net8.0\Ingredient.Resource.pdb
 D:\Dev\projects\health-care\IngredientService\resource\Ingredient.Resource\obj\Debug\net8.0\ref\Ingredient.Resource.dll
+D:\Dev\projects\health-care\IngredientService\resource\Ingredient.Resource\obj\Debug\net8.0\Ingredient.Resource.sourcelink.json

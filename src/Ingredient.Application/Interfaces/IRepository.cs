@@ -1,8 +1,7 @@
 ﻿namespace Ingredient.Application.Interfaces
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository
     {        
-        
-        Task Delete(T entity);        
+                   
     }
 }

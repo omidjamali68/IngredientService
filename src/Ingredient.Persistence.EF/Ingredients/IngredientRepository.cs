@@ -1,13 +1,7 @@
 ﻿using Ingredient.Application.Services.Ingredients;
 using Ingredient.Application.Services.Ingredients.Queries.GetAll;
-using Ingredient.Application.Services.Units.Queries.GetAll;
 using Ingredient.Common;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ingredient.Persistence.EF.Ingredients
 {
@@ -23,6 +17,11 @@ namespace Ingredient.Persistence.EF.Ingredients
         public async Task Add(Domain.Ingredients.Ingredient ingredient)
         {
             await context.Ingredients.AddAsync(ingredient);
+        }
+
+        public async Task<Domain.Ingredients.Ingredient?> FindById(Guid id)
+        {
+            return await context.Ingredients.FindAsync(id);
         }
 
         public async Task<GetIngredientsResponse> GetAll(string? searchKey, int page)
