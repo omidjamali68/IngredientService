@@ -26,7 +26,7 @@ namespace Ingredient.Domain.Ingredients
 
             if (titleResult.IsFailure)
             {
-                Result.Failure<Ingredient>(titleResult.Error);
+                return Result.Failure<Ingredient>(titleResult.Error);
             }
 
             return new Ingredient(titleResult.Value);
@@ -37,5 +37,16 @@ namespace Ingredient.Domain.Ingredients
             IngredientUnits = units;
         }
 
+        public Result Update(string title)
+        {
+            var titleResult = Title.Create(title);
+
+            if (titleResult.IsFailure)
+            {
+                return Result.Failure(titleResult.Error);
+            }
+
+            return Result.Success();
+        }
     }
 }

@@ -3,56 +3,20 @@
   "WorkspaceRootPath": "D:\\Dev\\projects\\health-care\\IngredientService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\ingredients\\queries\\findbyid\\findingredientbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\ingredients\\queries\\findbyid\\findingredientbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\ingredients\\commands\\add\\addingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\ingredients\\commands\\add\\addingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\ingredients\\queries\\getall\\getingredientqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\ingredients\\queries\\getall\\getingredientqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\ingredients\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\ingredients\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\units\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\units\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49C25872-1862-4FA5-A567-13D508424ACD}|src\\Ingredient.Persistence.EF\\Ingredient.Persistence.EF.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.persistence.ef\\units\\unitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49C25872-1862-4FA5-A567-13D508424ACD}|src\\Ingredient.Persistence.EF\\Ingredient.Persistence.EF.csproj|solutionrelative:src\\ingredient.persistence.ef\\units\\unitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{502CB12F-6A30-4154-9BA0-CD209E61F5B1}|src\\Ingredient.Api\\Ingredient.Api.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.api\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502CB12F-6A30-4154-9BA0-CD209E61F5B1}|src\\Ingredient.Api\\Ingredient.Api.csproj|solutionrelative:src\\ingredient.api\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{502CB12F-6A30-4154-9BA0-CD209E61F5B1}|src\\Ingredient.Api\\Ingredient.Api.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502CB12F-6A30-4154-9BA0-CD209E61F5B1}|src\\Ingredient.Api\\Ingredient.Api.csproj|solutionrelative:src\\ingredient.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\ingredients\\commands\\update\\updateingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\ingredients\\commands\\update\\updateingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{502CB12F-6A30-4154-9BA0-CD209E61F5B1}|src\\Ingredient.Api\\Ingredient.Api.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.api\\configs\\myconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502CB12F-6A30-4154-9BA0-CD209E61F5B1}|src\\Ingredient.Api\\Ingredient.Api.csproj|solutionrelative:src\\ingredient.api\\configs\\myconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49C25872-1862-4FA5-A567-13D508424ACD}|src\\Ingredient.Persistence.EF\\Ingredient.Persistence.EF.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.persistence.ef\\ingredients\\ingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C25872-1862-4FA5-A567-13D508424ACD}|src\\Ingredient.Persistence.EF\\Ingredient.Persistence.EF.csproj|solutionrelative:src\\ingredient.persistence.ef\\ingredients\\ingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\units\\queries\\getall\\getunitsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\units\\queries\\getall\\getunitsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\interfaces\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\interfaces\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\interfaces\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\interfaces\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|d:\\dev\\projects\\health-care\\ingredientservice\\src\\ingredient.application\\services\\ingredients\\commands\\add\\addingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA172D07-696A-455D-B147-A1386143884F}|src\\Ingredient.Application\\Ingredient.Application.csproj|solutionrelative:src\\ingredient.application\\services\\ingredients\\commands\\add\\addingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FindIngredientByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Queries\\FindById\\FindIngredientByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Ingredients\\Queries\\FindById\\FindIngredientByIdQueryHandler.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Queries\\FindById\\FindIngredientByIdQueryHandler.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Ingredients\\Queries\\FindById\\FindIngredientByIdQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:26:50.842Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -87,152 +38,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IIngredientRepository.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\IIngredientRepository.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Ingredients\\IIngredientRepository.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\IIngredientRepository.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Ingredients\\IIngredientRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T06:59:12.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUnitRepository.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Units\\IUnitRepository.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Units\\IUnitRepository.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Units\\IUnitRepository.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Units\\IUnitRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T06:58:17.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Interfaces\\IRepository.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Interfaces\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T06:57:29.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetIngredientQueryHandler.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Queries\\GetAll\\GetIngredientQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Ingredients\\Queries\\GetAll\\GetIngredientQueryHandler.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Queries\\GetAll\\GetIngredientQueryHandler.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Ingredients\\Queries\\GetAll\\GetIngredientQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Title": "IngredientRepository.cs",
+              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Persistence.EF\\Ingredients\\IngredientRepository.cs",
+              "RelativeDocumentMoniker": "src\\Ingredient.Persistence.EF\\Ingredients\\IngredientRepository.cs",
+              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Persistence.EF\\Ingredients\\IngredientRepository.cs",
+              "RelativeToolTip": "src\\Ingredient.Persistence.EF\\Ingredients\\IngredientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T06:56:04.414Z",
+              "WhenOpened": "2024-06-09T16:22:11.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddIngredientCommandHandler.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwCMAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:35:21.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnitRepository.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Persistence.EF\\Units\\UnitRepository.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Persistence.EF\\Units\\UnitRepository.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Persistence.EF\\Units\\UnitRepository.cs",
-              "RelativeToolTip": "src\\Ingredient.Persistence.EF\\Units\\UnitRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:10:13.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "IngredientsController.cs",
               "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Api\\Controllers\\IngredientsController.cs",
               "RelativeDocumentMoniker": "src\\Ingredient.Api\\Controllers\\IngredientsController.cs",
               "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Api\\Controllers\\IngredientsController.cs",
               "RelativeToolTip": "src\\Ingredient.Api\\Controllers\\IngredientsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwCgAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:47:40.515Z"
+              "WhenOpened": "2024-06-09T16:10:28.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Api\\Program.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Api\\Program.cs",
-              "RelativeToolTip": "src\\Ingredient.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "DocumentIndex": 3,
+              "Title": "AddIngredientCommandHandler.cs",
+              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
+              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
+              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Add\\AddIngredientCommandHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA7wBgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T08:03:49.583Z"
+              "WhenOpened": "2024-06-09T16:07:00.569Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICommandHandler.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Interfaces\\ICommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Interfaces\\ICommandHandler.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Interfaces\\ICommandHandler.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Interfaces\\ICommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "DocumentIndex": 1,
+              "Title": "UpdateIngredientCommandHandler.cs",
+              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Update\\UpdateIngredientCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Update\\UpdateIngredientCommandHandler.cs",
+              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Update\\UpdateIngredientCommandHandler.cs",
+              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Ingredients\\Commands\\Update\\UpdateIngredientCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T13:01:11.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyConfiguration.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Api\\Configs\\MyConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Api\\Configs\\MyConfiguration.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Api\\Configs\\MyConfiguration.cs",
-              "RelativeToolTip": "src\\Ingredient.Api\\Configs\\MyConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T11:13:05.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetUnitsQueryHandler.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Units\\Queries\\GetAll\\GetUnitsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Services\\Units\\Queries\\GetAll\\GetUnitsQueryHandler.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Services\\Units\\Queries\\GetAll\\GetUnitsQueryHandler.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Services\\Units\\Queries\\GetAll\\GetUnitsQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:07:43.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IQueryHandler.cs",
-              "DocumentMoniker": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Interfaces\\IQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ingredient.Application\\Interfaces\\IQueryHandler.cs",
-              "ToolTip": "D:\\Dev\\projects\\health-care\\IngredientService\\src\\Ingredient.Application\\Interfaces\\IQueryHandler.cs",
-              "RelativeToolTip": "src\\Ingredient.Application\\Interfaces\\IQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T07:51:19.229Z"
+              "WhenOpened": "2024-06-09T15:48:04.52Z",
+              "EditorCaption": ""
             }
           ]
         }
