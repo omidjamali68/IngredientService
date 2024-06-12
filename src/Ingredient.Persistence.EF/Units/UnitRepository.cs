@@ -22,7 +22,9 @@ namespace Ingredient.Persistence.EF.Units
 
         public async Task<Unit?> FindById(int id)
         {
-            return await context.Units.FindAsync(id);
+            return await context.Units
+                .Include(x => x.IngredientUnits)
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<GetUnitsResponse> GetAll(string? searchKey, int page)
@@ -48,6 +50,11 @@ namespace Ingredient.Persistence.EF.Units
                 Rows = rows,
                 Data = data
             };
+        }
+
+        public async Task<bool> IsExist(List<int> Ids)
+        {
+            return await context.Units.AnyAsync(x => Ids.Contains(x.Id));
         }
     }
 }

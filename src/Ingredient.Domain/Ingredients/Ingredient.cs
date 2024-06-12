@@ -11,7 +11,8 @@ namespace Ingredient.Domain.Ingredients
         public HashSet<IngredientUnit> IngredientUnits { get; private set; }
 
         private Ingredient()
-        {            
+        {
+            IngredientUnits = new HashSet<IngredientUnit>();
         }
 
         private Ingredient(Title title)
@@ -29,12 +30,27 @@ namespace Ingredient.Domain.Ingredients
                 return Result.Failure<Ingredient>(titleResult.Error);
             }
 
-            return new Ingredient(titleResult.Value);
+            return new Ingredient(titleResult.Value!);
         }
 
         public void SetUnits(HashSet<IngredientUnit> units)
         {
             IngredientUnits = units;
+        }
+
+        public Result SetUnitsById(List<int> units)
+        {
+            foreach (var item in units)
+            {
+                var ingrUnit = IngredientUnit.Create(this, item);
+
+                if (ingrUnit.IsFailure)
+                    return ingrUnit;
+
+                IngredientUnits.Add(ingrUnit.Value!);
+            }
+
+            return Result.Failure(Error.NullValue);
         }
 
         public Result Update(string title)

@@ -1,7 +1,6 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Application.Services.Units;
 using Ingredient.Domain;
-using Ingredient.Domain.IngredientUnits;
 using Ingredient.Domain.SeedWork;
 
 namespace Ingredient.Application.Services.Ingredients.Commands.Update
@@ -27,17 +26,10 @@ namespace Ingredient.Application.Services.Ingredients.Commands.Update
             if (ingredient == null) 
                 return Result.Failure<bool>(Error.NullValue);
 
-            var ingredientUnits = new HashSet<IngredientUnit>();
-            foreach (var item in request.units)
-            {
-                var unit = await _unitRepository.FindById(item);
-
-                if (unit is null)
-                    return Result.Failure<Guid>(Error.NullValue);
-
-                ingredientUnits.Add(IngredientUnit.Create(ingredient, unit).Value);
-            }
-            ingredient.SetUnits(ingredientUnits);
+            if (!await _unitRepository.IsExist(request.units))
+                return Result.Failure<Guid>(Error.NullValue);
+            
+            ingredient.SetUnitsById(request.units);            
 
             var result = ingredient.Update(request.title);
 

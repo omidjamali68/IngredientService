@@ -14,7 +14,7 @@ namespace Ingredient.Persistence.EF.IngredientUnits
             builder.HasOne(x => x.Ingredient)
                 .WithMany(x => x.IngredientUnits)
                 .HasForeignKey(x => x.IngredientId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasOne(x => x.Unit)
                 .WithMany(x => x.IngredientUnits)

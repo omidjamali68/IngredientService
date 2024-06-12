@@ -8,6 +8,7 @@ namespace Ingredient.Application.Services.Units
     {
         Task Add(Unit unit);
         Task<Unit?> FindById(int id);
+        Task<bool> IsExist(List<int> Ids);
         Task<GetUnitsResponse> GetAll(string? searchKey, int page);
     }
 }
