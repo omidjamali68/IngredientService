@@ -20,6 +20,11 @@ namespace Ingredient.Persistence.EF.Units
             await context.Units.AddAsync(unit);
         }
 
+        public void Delete(Unit unit)
+        {
+            context.Remove(unit);
+        }
+
         public async Task<Unit?> FindById(int id)
         {
             return await context.Units

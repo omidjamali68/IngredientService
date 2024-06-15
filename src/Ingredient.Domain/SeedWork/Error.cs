@@ -14,6 +14,8 @@
         public static Error None => Create(string.Empty, string.Empty);
         public static Error NullValue => Create("Error.NullValue", "The specified result value is null.");
 
+        public static Result UsedBy => Create("Error.UsedBy", "This object is in use");
+
         public static implicit operator string(Error error) => error.Code;
         public static implicit operator Result(Error error) => Result.Failure(error);        
 

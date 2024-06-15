@@ -10,5 +10,6 @@ namespace Ingredient.Application.Services.Units
         Task<Unit?> FindById(int id);
         Task<bool> IsExist(List<int> Ids);
         Task<GetUnitsResponse> GetAll(string? searchKey, int page);
+        void Delete(Unit unit);
     }
 }
