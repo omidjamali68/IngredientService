@@ -59,9 +59,10 @@ namespace Ingredient.Domain.Ingredients
 
             if (titleResult.IsFailure)
             {
-                return Result.Failure(titleResult.Error);
+                return titleResult.Error;
             }
 
+            this.Title = titleResult.Value!;
             return Result.Success();
         }
     }

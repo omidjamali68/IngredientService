@@ -30,5 +30,17 @@ namespace Ingredient.Domain.Units
 
             return new Unit(titleResult.Value);
         }
+
+        public Result Update(string title)
+        {
+            var titleResult = Title.Create(title);
+
+            if (titleResult.IsFailure) 
+                return titleResult.Error;
+
+            this.Title = titleResult.Value!;
+
+            return Result.Success();
+        }
     }
 }

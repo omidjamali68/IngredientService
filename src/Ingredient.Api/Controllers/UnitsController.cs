@@ -1,5 +1,6 @@
 ﻿using Ingredient.Application.Services.Units.Commands.Add;
 using Ingredient.Application.Services.Units.Commands.Delete;
+using Ingredient.Application.Services.Units.Commands.Update;
 using Ingredient.Application.Services.Units.Queries.GetAll;
 using Ingredient.Domain.SeedWork;
 using MediatR;
@@ -34,6 +35,12 @@ namespace Ingredient.Api.Controllers
         public async Task<Result> Delete(int id)
         {
             return await _mediator.Send(new DeleteUnitCommand(id));
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<Result> Update(int id, UpdateUintDto dto)
+        {
+            return await _mediator.Send(new UpdateUnitCommand(id, dto.title));
         }
     }
 }
