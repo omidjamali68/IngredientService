@@ -15,6 +15,7 @@
         public static Error NullValue => Create("Error.NullValue", "The specified result value is null.");
 
         public static implicit operator string(Error error) => error.Code;
+        public static implicit operator Result(Error error) => Result.Failure(error);        
 
         public static Error Create(string code, string message) => new(code, message);
 

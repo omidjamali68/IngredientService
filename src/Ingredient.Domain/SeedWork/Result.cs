@@ -4,11 +4,9 @@
     {        
         protected internal Result(bool isSuccess, Error error)
         {            
-            if (isSuccess && error != Error.None)            
-                throw new InvalidOperationException(); 
-            
-            if (!isSuccess && error == Error.None)
-                throw new InvalidOperationException(); 
+            if (isSuccess && error != Error.None ||
+                !isSuccess && error == Error.None)            
+                throw new Exception("Result is not valid");                        
 
             IsSuccess = isSuccess;
             Error = error;
@@ -24,7 +22,7 @@
 
         public static Result<T> Failure<T>(Error error) => new(default, false, error);
 
-        public static Result Failure(Error error) => new(false, error);                
+        public static Result Failure(Error error) => new(false, error);        
 
     }
 
@@ -44,7 +42,7 @@
             : default;        
 
         public static implicit operator Result<TValue>(TValue value) => 
-            new(value, true, Error.None);
+            new(value, true, Error.None);        
         
     }    
 }
