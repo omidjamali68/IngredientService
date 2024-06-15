@@ -1,6 +1,7 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Domain;
 using Ingredient.Domain.SeedWork;
+using Ingredient.Domain.Units;
 
 namespace Ingredient.Application.Services.Units.Commands.Delete
 {
@@ -20,10 +21,10 @@ namespace Ingredient.Application.Services.Units.Commands.Delete
             var unit = await _unitRepository.FindById(request.Id);
 
             if (unit == null)
-                return Error.NullValue;
+                return UnitErrors.NullValue;
 
             if (unit.IngredientUnits.Any())
-                return Error.UsedBy;
+                return UnitErrors.UsedBy;
 
             _unitRepository.Delete(unit);
 

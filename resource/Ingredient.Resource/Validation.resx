@@ -120,6 +120,9 @@
   <data name="FixLengthNumeric" xml:space="preserve">
     <value>مقدار فیلد {0} باید دقیقا {1} رقم باشد!</value>
   </data>
+  <data name="IsUsedBy" xml:space="preserve">
+    <value>مقدار {0} در حال استفاده توسط سیستم میباشد</value>
+  </data>
   <data name="MaxLenValidation" xml:space="preserve">
     <value>مقدار فیلد {0} نمی تواند بیشتر از {1} باشد</value>
   </data>

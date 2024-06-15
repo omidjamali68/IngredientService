@@ -23,10 +23,10 @@ namespace Ingredient.Application.Services.Units.Commands.Add
             if (unit.IsFailure)
                 return Result.Failure<int>(unit.Error);
 
-            await unitRepository.Add(unit.Value);
+            await unitRepository.Add(unit.Value!);
             await unitOfWork.SaveChangeAsync();
 
-            return Result.Success(unit.Value.Id);
+            return Result.Success(unit.Value!.Id);
         }
     }
 }

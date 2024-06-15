@@ -1,6 +1,7 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Domain;
 using Ingredient.Domain.SeedWork;
+using Ingredient.Domain.Units;
 
 namespace Ingredient.Application.Services.Units.Commands.Update
 {
@@ -18,8 +19,8 @@ namespace Ingredient.Application.Services.Units.Commands.Update
         public async Task<Result> Handle(UpdateUnitCommand request, CancellationToken cancellationToken)
         {
             var unit = await _unitRepository.FindById(request.Id);
-            if (unit == null) 
-                return Error.NullValue;
+            if (unit == null)
+                return UnitErrors.UsedBy;
 
             var result = unit.Update(request.Title);
 

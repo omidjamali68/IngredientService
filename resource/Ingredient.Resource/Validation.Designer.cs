@@ -36,7 +36,7 @@ namespace Ingredient.Resource {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ingredient.Resource.Validation", typeof(Validation).Assembly);
@@ -51,7 +51,7 @@ namespace Ingredient.Resource {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -59,7 +59,7 @@ namespace Ingredient.Resource {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to مقدار فیلد {0} باید دقیقا {1} رقم باشد!.
         /// </summary>
@@ -68,7 +68,16 @@ namespace Ingredient.Resource {
                 return ResourceManager.GetString("FixLengthNumeric", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to مقدار {0} در حال استفاده توسط سیستم میباشد.
+        /// </summary>
+        public static string IsUsedBy {
+            get {
+                return ResourceManager.GetString("IsUsedBy", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Looks up a localized string similar to مقدار فیلد {0} نمی تواند بیشتر از {1} باشد.
         /// </summary>
@@ -77,7 +86,7 @@ namespace Ingredient.Resource {
                 return ResourceManager.GetString("MaxLenValidation", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to مقدار فیلد {0} نمی تواند کمتر از {1} باشد.
         /// </summary>
@@ -86,7 +95,7 @@ namespace Ingredient.Resource {
                 return ResourceManager.GetString("MinLenValidation", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to {0} مورد نظر یافت نشد.
         /// </summary>
@@ -95,7 +104,7 @@ namespace Ingredient.Resource {
                 return ResourceManager.GetString("NotExist", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to مقدار فیلد {0} را بصورت صحیح وارد کنید!.
         /// </summary>
@@ -104,7 +113,7 @@ namespace Ingredient.Resource {
                 return ResourceManager.GetString("RegularExpression", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to لطفا مقدار فیلد {0} را وارد کنید.
         /// </summary>

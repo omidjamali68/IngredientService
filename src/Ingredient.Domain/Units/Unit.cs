@@ -28,7 +28,7 @@ namespace Ingredient.Domain.Units
                 Result.Failure<Unit>(titleResult.Error);
             }
 
-            return new Unit(titleResult.Value);
+            return new Unit(titleResult.Value!);
         }
 
         public Result Update(string title)
