@@ -1,5 +1,6 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Domain;
+using Ingredient.Domain.Ingredients;
 using Ingredient.Domain.SeedWork;
 
 namespace Ingredient.Application.Services.Ingredients.Commands.Delete
@@ -19,7 +20,7 @@ namespace Ingredient.Application.Services.Ingredients.Commands.Delete
         {
             var ingredient = await _repository.FindById(request.Id);
             if (ingredient == null)
-                return Error.NullValue;
+                return IngredientErrors.NotExist;
 
             _repository.Delete(ingredient);
 

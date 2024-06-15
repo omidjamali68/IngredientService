@@ -50,7 +50,7 @@ namespace Ingredient.Domain.Ingredients
                 IngredientUnits.Add(ingrUnit.Value!);
             }
 
-            return Result.Failure(Error.NullValue);
+            return Result.Success();
         }
 
         public Result Update(string title)

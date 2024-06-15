@@ -10,6 +10,6 @@ namespace Ingredient.Domain.Units
         }
 
         public static Error UsedBy => Create("Unit.UsedBy", string.Format(Validation.IsUsedBy, DataDictionary.Unit));
-        public static Error NullValue => Create("Unit.NullValue", string.Format(Validation.NotExist, DataDictionary.Unit));
+        public static Error NotExist => Create("Unit.NotExist", string.Format(Validation.NotExist, DataDictionary.Unit));
     }
 }

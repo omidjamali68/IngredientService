@@ -1,6 +1,7 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Application.Services.Units;
 using Ingredient.Domain;
+using Ingredient.Domain.Ingredients;
 using Ingredient.Domain.SeedWork;
 
 namespace Ingredient.Application.Services.Ingredients.Commands.Add
@@ -27,7 +28,7 @@ namespace Ingredient.Application.Services.Ingredients.Commands.Add
                return Result.Failure<Guid>(ingredientResult.Error);
 
             if (!await _unitRepository.IsExist(request.units))
-                return Result.Failure<Guid>(Error.NullValue);
+                return Result.Failure<Guid>(IngredientErrors.UnitNotFound.Error);
 
             var ingredient = ingredientResult.Value!;
 

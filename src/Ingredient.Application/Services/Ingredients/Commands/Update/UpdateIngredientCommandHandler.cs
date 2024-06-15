@@ -1,6 +1,7 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Application.Services.Units;
 using Ingredient.Domain;
+using Ingredient.Domain.Ingredients;
 using Ingredient.Domain.SeedWork;
 
 namespace Ingredient.Application.Services.Ingredients.Commands.Update
@@ -24,10 +25,10 @@ namespace Ingredient.Application.Services.Ingredients.Commands.Update
             var ingredient = await _repository.FindById(request.ID);
 
             if (ingredient == null) 
-                return Result.Failure<bool>(Error.NullValue);
+                return IngredientErrors.NotExist;
 
             if (!await _unitRepository.IsExist(request.units))
-                return Result.Failure<Guid>(Error.NullValue);
+                return IngredientErrors.UnitNotFound;
             
             ingredient.SetUnitsById(request.units);            
 

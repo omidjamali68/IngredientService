@@ -61,6 +61,15 @@ namespace Ingredient.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to مواد اولیه.
+        /// </summary>
+        public static string Ingredient {
+            get {
+                return ResourceManager.GetString("Ingredient", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to عنوان.
         /// </summary>
         public static string Title {

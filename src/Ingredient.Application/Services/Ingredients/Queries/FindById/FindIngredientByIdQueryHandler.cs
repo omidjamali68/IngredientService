@@ -1,4 +1,5 @@
 ﻿using Ingredient.Application.Interfaces;
+using Ingredient.Domain.Ingredients;
 using Ingredient.Domain.SeedWork;
 
 namespace Ingredient.Application.Services.Ingredients.Queries.FindById
@@ -18,7 +19,7 @@ namespace Ingredient.Application.Services.Ingredients.Queries.FindById
 
             if (result == null)
             {
-                return Result.Failure<FindIngredientByIdDto>(Error.NullValue);
+                return Result.Failure<FindIngredientByIdDto>(IngredientErrors.NotExist.Error);
             }
 
             return Result.Success(new FindIngredientByIdDto { Id = result.Id, Title= result.Title.Value});

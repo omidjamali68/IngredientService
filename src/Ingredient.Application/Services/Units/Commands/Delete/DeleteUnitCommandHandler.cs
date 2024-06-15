@@ -21,7 +21,7 @@ namespace Ingredient.Application.Services.Units.Commands.Delete
             var unit = await _unitRepository.FindById(request.Id);
 
             if (unit == null)
-                return UnitErrors.NullValue;
+                return UnitErrors.NotExist;
 
             if (unit.IngredientUnits.Any())
                 return UnitErrors.UsedBy;
