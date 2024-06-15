@@ -19,6 +19,11 @@ namespace Ingredient.Persistence.EF.Ingredients
             await context.Ingredients.AddAsync(ingredient);
         }
 
+        public void Delete(Domain.Ingredients.Ingredient ingredient)
+        {
+            context.Remove(ingredient);
+        }
+
         public async Task<Domain.Ingredients.Ingredient?> FindById(Guid id)
         {
             return await context.Ingredients

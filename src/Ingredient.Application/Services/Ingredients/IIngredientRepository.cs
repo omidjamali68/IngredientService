@@ -8,5 +8,6 @@ namespace Ingredient.Application.Services.Ingredients
         Task<GetIngredientsResponse> GetAll(string? searchKey, int page);
         Task Add(Domain.Ingredients.Ingredient ingredient);
         Task<Domain.Ingredients.Ingredient?> FindById(Guid id);
+        void Delete(Domain.Ingredients.Ingredient ingredient);
     }
 }
