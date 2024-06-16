@@ -10,7 +10,7 @@ namespace Ingredient.Persistence.EF.Ingredients
             builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
             builder.Property(x => x.Title)
-                .HasConversion(x => x.Value, x => Domain.ShareKernel.ValueObjects.Title.Create(x).Value);
+                .HasConversion(x => x.Value, x => Domain.ShareKernel.ValueObjects.Title.Create(x).Value!);
         }
     }
 }

@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Calories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\resource\Ingredient.Resource\Ingredient.Resource.csproj" />
   </ItemGroup>
 
