@@ -1,4 +1,5 @@
-﻿using Ingredient.Domain.IngredientUnits;
+﻿using Ingredient.Domain.Calories;
+using Ingredient.Domain.IngredientUnits;
 using Ingredient.Domain.Units;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,5 +21,6 @@ namespace Ingredient.Persistence.EF
         public DbSet<Domain.Ingredients.Ingredient> Ingredients { get; set; }
         public DbSet<Unit> Units { get; set; }
         public DbSet<IngredientUnit> IngredientUnits { get; set; }
+        public DbSet<Calorie> Calories { get; set; }
     }
 }

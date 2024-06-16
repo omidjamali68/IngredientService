@@ -8,6 +8,8 @@ namespace Ingredient.Persistence.EF.Calories
     {
         public void Configure(EntityTypeBuilder<Calorie> builder)
         {
+            builder.ToTable("Calories");
+
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
