@@ -14,8 +14,7 @@ namespace Ingredient.Application.Services.Ingredients.Queries.GetAll
 
         public async Task<Result<GetIngredientsResponse>> Handle(GetIngredientsQuery request, CancellationToken cancellationToken)
         {
-            var result = await _repository.GetAll(request.SearchKey, request.Page);
-            return Result.Success(result);
+            return await _repository.GetAll(request.SearchKey, request.Page);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Ingredient.Application.Services.Calories.Commands.Add;
+using Ingredient.Application.Services.Calories.Queries.GetAll;
 using Ingredient.Domain.SeedWork;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -20,6 +21,12 @@ namespace Ingredient.Api.Controllers
         public async Task<Result<int>> Add(string title)
         {
             return await mediator.Send(new AddCalorieCommand(title));
+        }
+
+        [HttpGet]
+        public async Task<Result<GetCaloriesResponse>> GetAll(string? search, int page = 1)
+        {
+            return await mediator.Send(new GetCaloriesQuery(search, page));
         }
     }
 }
