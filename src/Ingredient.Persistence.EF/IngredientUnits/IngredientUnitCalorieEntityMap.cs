@@ -1,4 +1,4 @@
-﻿using Ingredient.Domain.Calories;
+﻿using Ingredient.Domain.IngredientUnits;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -11,6 +11,8 @@ namespace Ingredient.Persistence.EF.Calories
             builder.ToTable("IngredientUnitCalories");
 
             builder.HasKey(x => new {x.CalorieId, x.IngredientUnitId});
+
+            builder.Property(x => x.Value);
 
             builder.HasOne(x => x.Calorie)
                 .WithMany(x => x.IngredientUnitCalories)

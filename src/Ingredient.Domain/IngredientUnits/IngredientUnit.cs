@@ -1,5 +1,4 @@
-﻿using Ingredient.Domain.Calories;
-using Ingredient.Domain.SeedWork;
+﻿using Ingredient.Domain.SeedWork;
 using Ingredient.Domain.Units;
 
 namespace Ingredient.Domain.IngredientUnits
