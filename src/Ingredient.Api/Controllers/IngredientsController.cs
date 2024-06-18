@@ -1,4 +1,5 @@
 ﻿using Ingredient.Application.Services.Ingredients.Commands.Add;
+using Ingredient.Application.Services.Ingredients.Commands.AddCalorie;
 using Ingredient.Application.Services.Ingredients.Commands.Delete;
 using Ingredient.Application.Services.Ingredients.Commands.Update;
 using Ingredient.Application.Services.Ingredients.Queries.FindById;
@@ -48,6 +49,12 @@ namespace Ingredient.Api.Controllers
         public async Task<Result> Delete(Guid id)
         {
             return await mediator.Send(new DeleteIngredientCommand(id));
+        }
+
+        [HttpPost("ingredient-units/{id}/calories")]
+        public async Task<Result> AddCalorie(int id, AddColorieDto dto)
+        {
+            return await mediator.Send(new AddIngredientUnitCalorieCommand(id, dto));
         }
     }
 }

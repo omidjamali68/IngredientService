@@ -4,7 +4,7 @@ using Ingredient.Domain.SeedWork;
 namespace Ingredient.Domain.IngredientUnits
 {
     public class IngredientUnitCalorie : Entity
-    {
+    {        
         public int CalorieId { get; internal set; }
         public Calorie Calorie { get; internal set; }
         public int IngredientUnitId { get; internal set; }
@@ -15,15 +15,38 @@ namespace Ingredient.Domain.IngredientUnits
         {
         }
 
-        private IngredientUnitCalorie(IngredientUnit ingredientUnit, Calorie calorie)
+        private IngredientUnitCalorie(IngredientUnit ingredientUnit, Calorie calorie, short value)
         {
             Calorie = calorie;
             IngredientUnit = ingredientUnit;
         }
 
-        public static IngredientUnitCalorie Create(Calorie calorie, IngredientUnit ingredientUnit)
+        private IngredientUnitCalorie(IngredientUnit ingredientUnit, int calorieId)
         {
-            return new IngredientUnitCalorie(ingredientUnit, calorie);
+            CalorieId = calorieId;
+            IngredientUnit = ingredientUnit;
+        }
+
+        public IngredientUnitCalorie(IngredientUnit ingredientUnit, int colorieId, short value)
+        {
+            IngredientUnit = ingredientUnit;
+            CalorieId = colorieId;
+            Value = value;
+        }
+
+        public static Result<IngredientUnitCalorie> Create(Calorie calorie, IngredientUnit ingredientUnit, short value)
+        {
+            return new IngredientUnitCalorie(ingredientUnit, calorie, value);
+        }
+
+        public static Result<IngredientUnitCalorie> Create(IngredientUnit ingredientUnit, int colorieId)
+        {
+            return new IngredientUnitCalorie(ingredientUnit, colorieId);
+        }
+
+        public static Result<IngredientUnitCalorie> Create(IngredientUnit ingredientUnit, int calorieId, short value)
+        {
+            return new IngredientUnitCalorie(ingredientUnit, calorieId, value);
         }
     }
 }

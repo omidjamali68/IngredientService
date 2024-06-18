@@ -11,7 +11,10 @@ namespace Ingredient.Domain.IngredientUnits
         public Unit Unit { get; private set; }
         public HashSet<IngredientUnitCalorie> IngredientUnitCalories { get; internal set; }
 
-        private IngredientUnit() { }
+        private IngredientUnit() 
+        {
+            IngredientUnitCalories = new HashSet<IngredientUnitCalorie>();
+        }
 
         private IngredientUnit(Ingredients.Ingredient ingredient, Unit unit)
         {
@@ -35,6 +38,26 @@ namespace Ingredient.Domain.IngredientUnits
         internal static Result<IngredientUnit> Create(Ingredients.Ingredient ingredient, int unitId)
         {
             return new IngredientUnit(ingredient, unitId);
+        }
+
+        public Result SetColories(HashSet<int> calories)
+        {
+            foreach (var item in calories)
+            {
+                var ingrUnit = IngredientUnitCalorie.Create(this, item);
+
+                if (ingrUnit.IsFailure)
+                    return ingrUnit;
+
+                IngredientUnitCalories.Add(ingrUnit.Value!);
+            }
+
+            return Result.Success();
+        }
+
+        public void SetCalorie(int id, short value)
+        {
+            IngredientUnitCalories.Add(IngredientUnitCalorie.Create(this, id, value).Value!);
         }
     }
 }

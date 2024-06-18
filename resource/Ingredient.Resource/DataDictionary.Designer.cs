@@ -79,6 +79,15 @@ namespace Ingredient.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ترکیب واحد و مواد اولیه.
+        /// </summary>
+        public static string IngredientUnit {
+            get {
+                return ResourceManager.GetString("IngredientUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to عنوان.
         /// </summary>
         public static string Title {
