@@ -22,5 +22,6 @@ namespace Ingredient.Persistence.EF
         public DbSet<Unit> Units { get; set; }
         public DbSet<IngredientUnit> IngredientUnits { get; set; }
         public DbSet<Calorie> Calories { get; set; }
+        public DbSet<IngredientUnitCalorie> IngredientUnitCalories { get; set; }
     }
 }

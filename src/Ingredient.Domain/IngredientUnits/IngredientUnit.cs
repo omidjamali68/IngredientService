@@ -1,4 +1,5 @@
-﻿using Ingredient.Domain.SeedWork;
+﻿using Ingredient.Domain.Calories;
+using Ingredient.Domain.SeedWork;
 using Ingredient.Domain.Units;
 
 namespace Ingredient.Domain.IngredientUnits
@@ -9,6 +10,7 @@ namespace Ingredient.Domain.IngredientUnits
         public Ingredients.Ingredient Ingredient { get; private set; }
         public int UnitId { get; private set; }
         public Unit Unit { get; private set; }
+        public HashSet<IngredientUnitCalorie> IngredientUnitCalories { get; internal set; }
 
         private IngredientUnit() { }
 
@@ -16,12 +18,14 @@ namespace Ingredient.Domain.IngredientUnits
         {
             this.Ingredient = ingredient;
             this.Unit = unit;
+            IngredientUnitCalories = new HashSet<IngredientUnitCalorie>();
         }
 
         private IngredientUnit(Ingredients.Ingredient ingredient, int unitId)
         {
             Ingredient = ingredient;
             UnitId = unitId;
+            IngredientUnitCalories = new HashSet<IngredientUnitCalorie>();
         }
 
         public static Result<IngredientUnit> Create(Ingredients.Ingredient ingredient, Unit unit)

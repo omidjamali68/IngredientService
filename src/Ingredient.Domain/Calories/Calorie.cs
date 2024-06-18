@@ -6,10 +6,12 @@ namespace Ingredient.Domain.Calories
     public class Calorie : Entity<int>
     {
         public Title Title { get; internal set; }
+        public HashSet<IngredientUnitCalorie> IngredientUnitCalories { get; internal set; }
 
         private Calorie(Title title)
         {
             Title = title;
+            IngredientUnitCalories = new HashSet<IngredientUnitCalorie>();
         }
 
         public static Result<Calorie> Create(string title)
