@@ -1,4 +1,5 @@
 ﻿using Ingredient.Application.Services.Calories.Commands.Add;
+using Ingredient.Application.Services.Calories.Commands.Update;
 using Ingredient.Application.Services.Calories.Queries.GetAll;
 using Ingredient.Domain.SeedWork;
 using MediatR;
@@ -27,6 +28,12 @@ namespace Ingredient.Api.Controllers
         public async Task<Result<GetCaloriesResponse>> GetAll(string? search, int page = 1)
         {
             return await mediator.Send(new GetCaloriesQuery(search, page));
+        }
+
+        [HttpPut("{id}")]
+        public async Task<Result> Update(int id, UpdateCalorieDto dto)
+        {
+            return await mediator.Send(new  UpdateCalorieCommand(id, dto));
         }
     }
 }

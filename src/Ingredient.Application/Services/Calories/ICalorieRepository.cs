@@ -8,6 +8,7 @@ namespace Ingredient.Application.Services.Calories
     public interface ICalorieRepository : IRepository
     {
         Task Add(Calorie calorie);
+        Task<Calorie?> FindById(int id);
         Task<Result<GetCaloriesResponse>> GetAll(string? searchKey, int page);
     }
 }

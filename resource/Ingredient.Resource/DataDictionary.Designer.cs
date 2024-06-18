@@ -61,6 +61,15 @@ namespace Ingredient.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to کالری.
+        /// </summary>
+        public static string Calorie {
+            get {
+                return ResourceManager.GetString("Calorie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to مواد اولیه.
         /// </summary>
         public static string Ingredient {

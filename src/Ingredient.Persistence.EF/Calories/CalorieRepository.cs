@@ -22,6 +22,11 @@ namespace Ingredient.Persistence.EF.Calories
             await _context.Calories.AddAsync(calorie);
         }
 
+        public async Task<Calorie?> FindById(int id)
+        {
+            return await _context.Calories.FindAsync(id);
+        }
+
         public async Task<Result<GetCaloriesResponse>> GetAll(string? searchKey, int page)
         {
             var calories = _context.Calories.AsQueryable();

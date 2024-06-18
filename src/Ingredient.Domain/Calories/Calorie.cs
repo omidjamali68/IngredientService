@@ -21,5 +21,17 @@ namespace Ingredient.Domain.Calories
 
             return new Calorie(titleResult.Value!);
         }
+
+        public Result Update(string title)
+        {
+            var titleResult = Title.Create(title);
+
+            if (titleResult.IsFailure)
+                return titleResult.Error;
+
+            this.Title = titleResult.Value!;
+
+            return Result.Success();
+        }
     }
 }
