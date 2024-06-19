@@ -22,7 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Ingredient.Application\Ingredient.Application.csproj" />
     <ProjectReference Include="..\Ingredient.Common\Ingredient.Common\Ingredient.Common.csproj" />
-    <ProjectReference Include="..\Ingredient.Domain\Ingredient.Domain.csproj" />
   </ItemGroup>
 
 </Project>
