@@ -1,4 +1,4 @@
-﻿using Ingredient.Domain;
+﻿using Ingredient.Application;
 
 namespace Ingredient.Persistence.EF
 {

@@ -1,5 +1,4 @@
 ﻿using Ingredient.Application.Interfaces;
-using Ingredient.Domain;
 using Ingredient.Domain.Calories;
 using Ingredient.Domain.SeedWork;
 

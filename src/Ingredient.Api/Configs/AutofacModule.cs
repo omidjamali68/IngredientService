@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using Ingredient.Application.Interfaces;
-using Ingredient.Domain;
 using Ingredient.Persistence.EF.Units;
 using Ingredient.Persistence.EF;
+using Ingredient.Application;
 
 namespace Ingredient.Api.Configs
 {

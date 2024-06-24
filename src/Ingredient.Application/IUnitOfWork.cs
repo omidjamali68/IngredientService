@@ -1,4 +1,4 @@
-﻿namespace Ingredient.Domain
+﻿namespace Ingredient.Application
 {
     public interface IUnitOfWork
     {
