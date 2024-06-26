@@ -1,5 +1,6 @@
 ﻿using Ingredient.Application.Services.Ingredients;
 using Ingredient.Application.Services.Ingredients.Queries.GetAll;
+using Ingredient.Application.Services.Ingredients.Queries.GetById;
 using Ingredient.Common;
 using Microsoft.EntityFrameworkCore;
 
@@ -28,6 +29,7 @@ namespace Ingredient.Persistence.EF.Ingredients
         {
             return await context.Ingredients
                 .Include(x => x.IngredientUnits)
+                .ThenInclude(x => x.Unit)
                 .FirstOrDefaultAsync(x => x.Id == id);
         }
 
@@ -44,7 +46,7 @@ namespace Ingredient.Persistence.EF.Ingredients
             {
                 Id = x.Id,
                 Title = x.Title.Value
-            });
+            }).AsNoTracking();
 
             var rows = 0;
             var data = await reult.ToPaged(page, 20, out rows).ToListAsync();
@@ -54,6 +56,23 @@ namespace Ingredient.Persistence.EF.Ingredients
                 Rows = rows,
                 Data = data
             };
+        }
+
+        public async Task<GetIngredientByIdDto?> GetById(Guid id)
+        {
+            return await context.Ingredients
+                .Include(x => x.IngredientUnits)
+                .ThenInclude(x => x.Unit)
+                .Select( x => new GetIngredientByIdDto
+                {
+                    Id = x.Id,
+                    Title = x.Title.Value!,
+                    Units = x.IngredientUnits.Select(u =>
+                        new IngredientUnitDto(u.Unit.Title.Value, u.Id)
+                    ).ToHashSet()
+                 })              
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
     }
 }

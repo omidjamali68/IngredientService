@@ -1,5 +1,6 @@
 ﻿using Ingredient.Application.Interfaces;
 using Ingredient.Application.Services.Ingredients.Queries.GetAll;
+using Ingredient.Application.Services.Ingredients.Queries.GetById;
 
 namespace Ingredient.Application.Services.Ingredients
 {
@@ -9,5 +10,6 @@ namespace Ingredient.Application.Services.Ingredients
         Task Add(Domain.Ingredients.Ingredient ingredient);
         Task<Domain.Ingredients.Ingredient?> FindById(Guid id);
         void Delete(Domain.Ingredients.Ingredient ingredient);
+        Task<GetIngredientByIdDto?> GetById(Guid id);
     }
 }

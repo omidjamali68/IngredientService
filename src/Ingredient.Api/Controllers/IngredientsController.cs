@@ -2,8 +2,8 @@
 using Ingredient.Application.Services.Ingredients.Commands.AddCalorie;
 using Ingredient.Application.Services.Ingredients.Commands.Delete;
 using Ingredient.Application.Services.Ingredients.Commands.Update;
-using Ingredient.Application.Services.Ingredients.Queries.FindById;
 using Ingredient.Application.Services.Ingredients.Queries.GetAll;
+using Ingredient.Application.Services.Ingredients.Queries.GetById;
 using Ingredient.Domain.SeedWork;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -34,9 +34,9 @@ namespace Ingredient.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<Result<FindIngredientByIdDto>> GetById(Guid id)
+        public async Task<Result<GetIngredientByIdDto>> GetById(Guid id)
         {
-            return await mediator.Send(new FindIngredientByIdQuery(id));
+            return await mediator.Send(new GetIngredientByIdQuery(id));
         }
 
         [HttpPut("{id}")]
